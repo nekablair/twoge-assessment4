@@ -179,7 +179,6 @@ Twoge's database consists of a single table that stores information about each t
 
 ## 🎥 Video Walkthrough
 
-If you would like to add a video to your README, you can include it like this:
 
 ```markdown
 ![Twoge Walkthrough](assessment4-twoge-recording-19september24.mp4)
