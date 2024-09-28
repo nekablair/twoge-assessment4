@@ -177,6 +177,16 @@ Twoge's database consists of a single table that stores information about each t
 
 ---
 
+## 📷 Screenshots
+
+![Twoge Screenshot1](twoge-minikube.PNG)
+![Twoge Screenshot2](twoge-minikube2.PNG)
+![Twoge Screenshot3](twoge-minikube3.PNG)
+![Twoge Screenshot4](twoge-minikube4.PNG)
+![Twoge Screenshot5](twoge-minikube5.PNG)
+
+---
+
 ## 🎥 Video Walkthrough
 
 
