@@ -1,0 +1,16 @@
+---
+# # For minikube
+# apiVersion: storage.k8s.io/v1
+# kind: StorageClass
+# metadata:
+#   name: taneka-storage
+# provisioner: k8s.io/minikube-hostpath
+
+# For AWS EKS
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: flask-twoge-taneka
+provisioner: ebs.csi.aws.com
+volumeBindingMode: WaitForFirstConsumer
+allowVolumeExpansion: true

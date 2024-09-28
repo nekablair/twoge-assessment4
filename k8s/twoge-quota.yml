@@ -1,0 +1,27 @@
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: twoge-quota
+  namespace: taneka
+spec:
+  hard:
+    # Set the maximum number of CPU cores that can be used
+    limits.cpu: "2"            # Max 2 CPU cores
+    requests.cpu: "1"          # Guaranteed 1 CPU core
+
+    # Set the maximum amount of memory that can be used
+    limits.memory: "2Gi"       # Max 2 GiB memory
+    requests.memory: "1Gi"     # Guaranteed 1 GiB memory
+
+    # Limit the number of pods that can run in the namespace
+    pods: "5"                  # Max 5 pods in the namespace
+
+    # Limit the number of services that can be created in the namespace
+    services: "5"              # Max 5 services
+
+    # Limit the number of persistent volume claims (PVCs) in the namespace
+    persistentvolumeclaims: "2" # Max 2 PVCs
+
+    # Optionally, limit the number of secrets
+    secrets: "10"              # Max 10 secrets
